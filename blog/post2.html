@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Scalable Web Applications - Your Name</title>
+    <meta name="description" content="Best practices for building scalable web applications">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../research.html">Research</a></li>
+                <li><a href="../cv.html">CV</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <article class="blog-post">
+                <a href="../blog.html" class="back-link">← Back to Blog</a>
+
+                <h1>Building Scalable Web Applications</h1>
+                <p class="blog-meta">December 28, 2025</p>
+
+                <div class="blog-content">
+                    <p>
+                        Scalability is one of the most critical aspects of modern web application development.
+                        As your user base grows, your application needs to handle increased traffic, data, and
+                        complexity without degrading performance. In this post, I'll share key principles and
+                        practices for building applications that scale.
+                    </p>
+
+                    <h2>Architecture Patterns</h2>
+                    <p>
+                        Choosing the right architecture is fundamental. Microservices architecture allows you
+                        to scale individual components independently, while monolithic architectures can be
+                        simpler to start with. Consider your team size, deployment capabilities, and growth
+                        projections when making this decision.
+                    </p>
+
+                    <h2>Database Optimization</h2>
+                    <p>
+                        Database performance often becomes the bottleneck in web applications. Implement proper
+                        indexing, use caching strategies (Redis, Memcached), and consider database sharding for
+                        horizontal scaling. Don't forget to optimize your queries and use connection pooling.
+                    </p>
+
+                    <h2>Load Balancing and CDNs</h2>
+                    <p>
+                        Distribute traffic across multiple servers using load balancers. Leverage Content Delivery
+                        Networks (CDNs) to serve static assets from locations closer to your users. This reduces
+                        latency and improves the overall user experience.
+                    </p>
+
+                    <h2>Monitoring and Observability</h2>
+                    <p>
+                        You can't improve what you don't measure. Implement comprehensive monitoring and logging
+                        to understand your application's behavior under load. Tools like Prometheus, Grafana, and
+                        ELK stack can provide valuable insights into performance bottlenecks.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/ammxar21" target="_blank" aria-label="GitHub">GitHub</a>
+                <a href="https://linkedin.com/in/ammaarmoha" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+                <a href="mailto:ammaaray@ualberta.ca" aria-label="Email">Email</a>
+            </div>
+            <p>&copy; 2026 Ammaar Mohammed. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
